@@ -2,3 +2,23 @@ body {
 	background-color: rgb(200,200,250);
 	font-family:  'Source Sans Pro', sans-serif;
 }
+
+.github-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+.authors ul { 
+	list-style: none; 
+}
+
+.authors li,
+.authors p {
+	display: inline-block;
+	letter-spacing: -.3px;
+	padding-left: 0.7rem;
+	color: #828282;
+}
