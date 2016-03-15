@@ -10,6 +10,12 @@ header {
 	text-align:center;
 	margin-bottom: 4rem;
 }
+
+.title{
+
+	font-family: 'Montserrat', sans-serif;
+}
+
 header h1 {
 	margin-bottom: 0.5rem;
 }
@@ -24,15 +30,29 @@ header h1 {
 	margin-bottom: 3rem;
 	clear:both;
 }
+
+
+.left{
+	float: left;
+
+}
+
+.right{
+	text-align:right;
+	float: right;
+	direction: rtl;
+}
+
 .candidates .candidate {
 	display:table-cell;
 	width:50%;
 }
-.candidates .candidate .photo {
+
+.photo {
 	width:45%;
 	padding-bottom:1rem;
 }
-.candidates .candidate .photo img {
+.photo img {
 	width:100%;
 }
 .candidates .left .photo {
@@ -46,10 +66,12 @@ header h1 {
 .candidates .right .infos {
 	text-align:right;
 }
+
 .candidates .left,
 .candidates .right {
 	overflow:auto;
 }
+
 section {
 	clear:both;
 	margin-bottom:8rem;
@@ -65,17 +87,13 @@ section .title span {
 	padding:0.2rem 1rem 0.2rem 1rem;
 	
 }
-section .title + .program {
-	float:left;
-}
-section .program + .program {
-	float:right;
-	text-align:right;
-}
+
 section .program {
 	overflow:auto;
 	width:45%;
 }
+
+
 
 .github-icon-svg {
   display: inline-block;
@@ -89,6 +107,10 @@ section .program {
 	list-style: none; 
 	padding:0;
 	margin:0;
+}
+
+ul{
+	list-style-position: inside;
 }
 
 .authors li,
