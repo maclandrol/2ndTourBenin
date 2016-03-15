@@ -1,10 +1,45 @@
+html{
+	  font: 16px/1.5 Inconsolata, sans-serif;
+
+}
+
 body {
 	background-color: rgb(253,253,254);
+	margin: 2rem 0 5rem;
+
 }
+
+@media (min-width: 30rem) {
+  body {
+    margin-top: 5rem;
+  }
+}
+
+a {
+  color: #0074d9; /* From http://clrs.cc */
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.5rem -0.1rem;
+  line-height: 1;
+  color: #111;
+  text-rendering: optimizeLegibility;
+}
+
 article {
-	margin: 2rem 10rem 10rem 10rem;
-	padding: 1rem 1rem 1rem 1rem;
-	font-family:  'Source Sans Pro', sans-serif;
+
+	max-width: 50rem;
+	min-width: 40rem;
+
+  	margin: 0 auto;
+  	padding: 0 1rem;
+	overflow: auto;
+	color: #333;
 }
 header {
 	text-align:center;
@@ -16,9 +51,23 @@ header {
 	font-family: 'Montserrat', sans-serif;
 }
 
-header h1 {
-	margin-bottom: 0.5rem;
+h1 {
+  font-size: 2.5rem;
+  color: #111;
+  margin-bottom: 0.5rem;
 }
+
+@media (min-width: 30rem) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+h1 a {
+  color: inherit;
+}
+
 .content {
 	width:100%;
 }
@@ -49,11 +98,12 @@ header h1 {
 }
 
 .photo {
-	width:45%;
+	width: 45%;
 	padding-bottom:1rem;
 }
+
 .photo img {
-	width:100%;
+	max-width: 100%;
 }
 .candidates .left .photo {
 	float:left;
@@ -72,18 +122,26 @@ header h1 {
 	overflow:auto;
 }
 
+section img {
+	max-width : 100%;
+	margin: 0px;
+	padding: 0px;
+}
 section {
 	clear:both;
-	margin-bottom:8rem;
+	margin-bottom:10rem;
+	margin-top : 5rem;
 	width:100%;
 }
 section .title {
 	text-align:center;
 	font-weight:bold;
-	color:white;
+	 position:relative;
+	z-index: 999;
 }
 section .title span {
-	background-color: #002684;
+	border : 2px solid #333;
+	background-color: #fff;
 	padding:0.2rem 1rem 0.2rem 1rem;
 	
 }
@@ -91,6 +149,11 @@ section .title span {
 section .program {
 	overflow:auto;
 	width:45%;
+}
+
+section .word {
+	overflow:auto;
+	width:  49%;
 }
 
 
@@ -111,6 +174,13 @@ section .program {
 
 ul{
 	list-style-position: inside;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	padding-top: 1rem;
+	margin : 0px;
 }
 
 .authors li,
