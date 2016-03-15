@@ -1,15 +1,80 @@
 body {
-	background-color: rgb(240,240,245);
+	background-color: rgb(253,253,254);
 }
 article {
-	background-color: rgb(253,253,255);
-	margin: 2rem 4rem 4rem 4rem;
+	margin: 2rem 10rem 10rem 10rem;
 	padding: 1rem 1rem 1rem 1rem;
-	border: 1px solid rgb(210,210,215);
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
 	font-family:  'Source Sans Pro', sans-serif;
+}
+header {
+	text-align:center;
+	margin-bottom: 4rem;
+}
+header h1 {
+	margin-bottom: 0.5rem;
+}
+.content {
+	width:100%;
+}
+.candidates {
+	display:table;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 3rem;
+	clear:both;
+}
+.candidates .candidate {
+	display:table-cell;
+	width:50%;
+}
+.candidates .candidate .photo {
+	width:45%;
+	padding-bottom:1rem;
+}
+.candidates .candidate .photo img {
+	width:100%;
+}
+.candidates .left .photo {
+	float:left;
+	padding-right:1rem;
+}
+.candidates .right .photo {
+	float:right;
+	padding-left:1rem;
+}
+.candidates .right .infos {
+	text-align:right;
+}
+.candidates .left,
+.candidates .right {
+	overflow:auto;
+}
+section {
+	clear:both;
+	margin-bottom:8rem;
+	width:100%;
+}
+section .title {
+	text-align:center;
+	font-weight:bold;
+	color:white;
+}
+section .title span {
+	background-color: #002684;
+	padding:0.2rem 1rem 0.2rem 1rem;
+	
+}
+section .title + .program {
+	float:left;
+}
+section .program + .program {
+	float:right;
+	text-align:right;
+}
+section .program {
+	overflow:auto;
+	width:45%;
 }
 
 .github-icon-svg {
@@ -22,12 +87,15 @@ article {
 
 .authors ul { 
 	list-style: none; 
+	padding:0;
+	margin:0;
 }
 
 .authors li,
 .authors p {
 	display: inline-block;
 	letter-spacing: -.3px;
-	padding-left: 0.7rem;
+	padding-left: 0.35rem;
+	padding-right: 0.35rem;
 	color: #828282;
 }
