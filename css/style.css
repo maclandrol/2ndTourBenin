@@ -11,7 +11,7 @@ body {
 
 @media (min-width: 30rem) {
   body {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 }
 
@@ -42,6 +42,7 @@ article {
 	overflow: auto;
 	color: #333;
 }
+
 header {
 	text-align:center;
 	margin-bottom: 4rem;
