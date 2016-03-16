@@ -7,12 +7,17 @@ $(document).ready(function() {
      );
 
 	$(function () {
+		$("#talon").width(0);
+		$("#zinsou").width(0);
+	});
+
+	$(function () {
 	    $("#talon").animate({
 	       width: '24.8%'
-	    }, { duration: 200, queue: false });
+	    }, { duration: 1000, queue: false });
 	    $("#zinsou").animate({
 	       width: '28.44%'
-	    }, { duration: 200, queue: false });
+	    }, { duration: 1000, queue: false });
 	});
 
 });
