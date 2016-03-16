@@ -1,3 +1,10 @@
+Remarques générales sur le programme de Zinsou:
+	Déclarations conflictuelles:
+		Deux déclarations différentes:
+			Projet-phare 17: Construction de plus de 2500 km de routes bitumées
+			Transport, logistiques et échanges commerciaux: Construire 1600 km de voies bitumées.
+		Les expressions "routes bitumées" et "voies bitumées" ne désignent-elles pas la même chose ? Si oui, le programme manque de constance sur ce point.
+----------------------------------------------------------------------------------------------------
 Objectifs de Zinsou.
 	+10% de Croissance dès 2017
 		Atteindre un rythme de +10% de croissance dès 2017 pour viser + 60% du PIB en 2021
