@@ -255,7 +255,9 @@ ul{
 }
 
 #blank{
-	width : 30% ;
+	width : 42%;
+	text-align: center;
+	padding: 0px;
 }
 #talon{
 	width: 24.8%;
