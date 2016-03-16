@@ -130,12 +130,13 @@ h1 a {
 	margin-right: 1rem;
 	margin-left: 1rem;
 	vertical-align: middle;
+	font-size: 1rem;
  
 }
 
 .candidates .left,
 .candidates .right {
-	overflow:auto;
+	overflow:hidden;
 }
 
 section img {
@@ -152,8 +153,9 @@ section {
 section .title {
 	text-align:center;
 	font-weight:bold;
-	 position:relative;
-	 margin-bottom: 1rem;
+	font-size: 1rem;
+	position:relative;
+	margin-bottom: 1rem;
 	z-index: 999;
 	font-family: 'Arvo', sans-serif;
 }
