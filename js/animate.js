@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $(".circular-square").animate({
     	"width": "10%"
      }, 10, function(){$(".circular-square").animate({
@@ -7,6 +6,10 @@ $(document).ready(function() {
      	}, 400)}
      );
 
+	$(function () {
+		$(".percent").width(1);
+		$("#zinsou").width(1);
+	});
 
 	$(function () {
 	    $("#talon").animate({
