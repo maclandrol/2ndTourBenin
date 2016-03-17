@@ -39,7 +39,7 @@ article {
 	font-size: 1.2rem;
   	margin: 0 auto;
   	padding: 0 1rem;
-	overflow: auto;
+  	height: 100%;
 	color: #333;
 }
 
@@ -311,4 +311,16 @@ ul{
 
 em{
 	font-style: italic;
+}
+
+#keyword{
+	margin-bottom: 2em;
+	padding-top: 2em;
+
+	border-top: 2px solid black;
+}
+
+#keyword .title span{
+	background-color: black;
+	color:white;
 }
