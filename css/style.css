@@ -215,8 +215,10 @@ ul{
 
 .program ul{
 	text-align: justify;
-	
-
+}
+.program.right ul {
+	-moz-text-align-last: right;
+	text-align-last: right;
 }
 
 .program li {
