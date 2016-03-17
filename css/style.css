@@ -159,14 +159,14 @@ section .title {
 	font-size: 1rem;
 	position:relative;
 	margin-bottom: 1rem;
-	cursor: pointer;
-	z-index: 999;
 	font-family: 'Arvo', sans-serif;
 }
 section .title span {
 	border : 2px solid #333;
 	background-color: #fff;
 	padding:0.2rem 1rem 0.2rem 1rem;
+	cursor: pointer;
+	z-index: 999;
 	
 }
 
@@ -311,4 +311,24 @@ ul{
 
 em{
 	font-style: italic;
+}
+
+
+#keyword{
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+	
+
+}
+
+#keyword .title{
+	border-top: 2px solid black;
+	margin: 0px 5rem 0px;
+
+}
+
+#keyword .title span{
+	background-color: black;
+	border:0px;
+	color:white;
 }
