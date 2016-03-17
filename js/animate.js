@@ -20,6 +20,8 @@ $(document).ready(function() {
 	    }, { duration: 1000, queue: false });
 	});
 
+	$("div.programs:not(:first)").hide();
+
 	$('div.title').click(function() {
   		$(this).parent().find(".programs").toggle();
   		console.log("HAHAHAH");
