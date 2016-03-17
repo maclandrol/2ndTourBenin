@@ -101,28 +101,28 @@ h1 a {
 .right{
 	text-align:right;
 	float: right;
-	direction: rtl;
-
 }
 
 .candidates .candidate {
 	display:table-cell;
 	width:50%;
 
+
 }
 
 .photo {
-	max-width: 50%;
+	max-width: 49%;
 	display: inline-block;
 	vertical-align: middle;
+	margin-left : 0.4rem;
+	margin-right : 0.4rem;
 
 }
 
 .photo img {
 
 	width: 100%;
-	margin-left : 0.5rem;
-	margin-right : 0.5rem;
+
 }
 
 
@@ -134,6 +134,7 @@ h1 a {
 	font-size: 1rem;
  
 }
+
 
 .candidates .left,
 .candidates .right {
@@ -177,7 +178,7 @@ section .programs{
 
 section .program {
 	overflow:auto;
-	width:47%;
+	width:49%;
 	height: 100%;
 }
 
@@ -203,14 +204,13 @@ section .word {
 	margin:0;
 }
 
-.right ul{
-	direction: rtl;
 
-}
 
 ul{
 	margin-bottom: 1rem;
 	padding: 0px;
+	list-style: none;
+
 }
 
 .program ul{
@@ -222,11 +222,39 @@ ul{
 .program li {
 	padding-top: 0.2rem;
 	margin : 0.4rem;
-	list-style-type: disc;
-    list-style-position: inside;
-    text-indent: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    position: relative;
+}
+
+
+ul li:before{
+	content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    display: block;
+    height: 0;
+    top: 0.7rem;
+    width: 0;
+
+}
+
+
+.left ul li:before{
+  
+    border-width: 0.35em 0 0.35em 0.45em;
+    left:0;
+    position: absolute;
+    padding-right: 1em;
+
+}
+
+.right ul li:before{
+
+    border-width: 0.35em 0.45em  0.35em 0;
+    right: 0;
+    position: absolute;
+    padding-left: 1em;
 
 }
 
