@@ -22,7 +22,9 @@ $(document).ready(function() {
 
 	$('section.title').click(function() {
   		$(this).parent().find(".programs").toggle();
+  		console.log("HAHAHAH");
   		return false;
 	});
+	console.log("hjshajsa");
 
 });
