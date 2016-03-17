@@ -312,15 +312,3 @@ ul{
 em{
 	font-style: italic;
 }
-
-#keyword{
-	margin-bottom: 2rem;
-	margin-bottom: 2rem;
-	border-top: 2px solid black;
-}
-
-#keyword .title span{
-	background-color: black;
-	border:0px;
-	color:white;
-}
