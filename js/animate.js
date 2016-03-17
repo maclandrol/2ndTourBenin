@@ -20,11 +20,10 @@ $(document).ready(function() {
 	    }, { duration: 1000, queue: false });
 	});
 
-	$('section.title').click(function() {
+	$('div.title').click(function() {
   		$(this).parent().find(".programs").toggle();
   		console.log("HAHAHAH");
   		return false;
 	});
-	console.log("hjshajsa");
 
 });
