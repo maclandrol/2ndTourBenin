@@ -13,10 +13,10 @@ $(document).ready(function() {
 
 	$(function () {
 	    $("#talon").animate({
-	       width: '24.8%'
+	       width: '24.73%'
 	    }, { duration: 1000, queue: false });
 	    $("#zinsou").animate({
-	       width: '28.44%'
+	       width: '28.42%'
 	    }, { duration: 1000, queue: false });
 	});
 
