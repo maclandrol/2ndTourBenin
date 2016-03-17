@@ -20,8 +20,8 @@ $(document).ready(function() {
 	    }, { duration: 1000, queue: false });
 	});
 
-	$('.title').click(function() {
-  		$(this).closest('.content-holder').find(".programs").toggle();
+	$('section.title').click(function() {
+  		$(this).siblings(".programs").toggle();
 	});
 
 });
