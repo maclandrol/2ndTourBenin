@@ -28,7 +28,7 @@
 </node>
 </node>
 <node CREATED="1458153531090" ID="ID_1280518964" MODIFIED="1458153531090" POSITION="right" TEXT="Exploiter la locomotive nig&#xe9;riane pour tirer le d&#xe9;veloppement du B&#xe9;nin."/>
-<node CREATED="1458153531008" FOLDED="true" ID="ID_14682424" MODIFIED="1458155149149" POSITION="right" TEXT="20 Projets et R&#xe9;formes Phares">
+<node CREATED="1458153531008" FOLDED="true" ID="ID_14682424" MODIFIED="1458167686087" POSITION="right" TEXT="20 Projets et R&#xe9;formes Phares">
 <node CREATED="1458153531011" MODIFIED="1458153531011" TEXT="01. Emploi aid&#xe9; &#x2013; accompagner pendant 3 ans les jeunes"/>
 <node CREATED="1458153531014" MODIFIED="1458153531014" TEXT="02) Projet Zemidjan - r&#xe9;duction de 45% du loyer de la moto"/>
 <node CREATED="1458153531017" MODIFIED="1458153531017" TEXT="03) G&#xe9;n&#xe9;ralisation des cantines scolaires"/>
@@ -50,7 +50,7 @@
 <node CREATED="1458153531058" MODIFIED="1458153531058" TEXT="19. Programme de cr&#xe9;ation et de mise &#xe0; niveau des Infrastructures Sportives (terrains, gymnases)"/>
 <node CREATED="1458153531063" MODIFIED="1458153531063" TEXT="20. Justice pour tous - construction de 14 tribunaux"/>
 </node>
-<node CREATED="1458153531095" FOLDED="true" ID="ID_478284024" MODIFIED="1458155153996" POSITION="right" TEXT="Propositions de Zinsou:">
+<node CREATED="1458153531095" FOLDED="true" ID="ID_478284024" MODIFIED="1458168993742" POSITION="right" TEXT="Propositions de Zinsou:">
 <node CREATED="1458153531096" FOLDED="true" ID="ID_1072646695" MODIFIED="1458154733716" TEXT="2.  Lutte contre la pauvret&#xe9;">
 <node CREATED="1458153531097" MODIFIED="1458153531097" TEXT="(03) G&#xe9;n&#xe9;raliser les cantines scolaires encore limit&#xe9;es &#xe0; 2000 &#xe9;coles et am&#xe9;liorer leur fonctionnement. Ceci permettra de soutenir l&#x2019;&#xe9;quilibre nutritionnel des enfants du B&#xe9;nin, tout en facilitant la g&#xe9;n&#xe9;ralisation de la scolarisation. Cet effort de solidarit&#xe9; s&#x2019;&#xe9;l&#xe8;vera &#xe0; environ 48 milliards de FCFA par an pour l&#x2019;ensemble du projet."/>
 <node CREATED="1458153531105" FOLDED="true" ID="ID_1631414946" MODIFIED="1458153539286" TEXT="(15) D&#xe9;velopper et renforcer les programmes d&#x2019;acc&#xe8;s populaire &#xe0; l&#x2019;&#xe9;nergie tels que &#xab; Lumi&#xe8;re pour Tous &#xbb; qui visent &#xe0; permettre &#xe0; toutes les familles du B&#xe9;nin d&#x2019;acc&#xe9;der &#xe0; une capacit&#xe9; &#xe9;nerg&#xe9;tique solaire minimum. Ce programme repr&#xe9;sente une &#xe9;conomie directe pour les familles les plus pauvres.">
