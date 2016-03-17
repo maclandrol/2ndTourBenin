@@ -308,3 +308,7 @@ ul{
 	float: right;
 
 }
+
+em{
+	font-style: italic;
+}
