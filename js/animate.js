@@ -21,7 +21,8 @@ $(document).ready(function() {
 	});
 
 	$('section.title').click(function() {
-  		$(this).siblings(".programs").toggle();
+  		$(this).parent().find(".programs").toggle();
+  		return false;
 	});
 
 });
