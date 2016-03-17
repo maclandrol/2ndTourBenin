@@ -74,7 +74,9 @@ h1 a {
 }
 
 .content {
-	width:100%;
+	width:99%;
+	overflow: hidden;
+
 }
 .candidates {
 	display:table;
