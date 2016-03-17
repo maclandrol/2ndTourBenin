@@ -40,7 +40,6 @@ article {
   	margin: 0 auto;
   	padding: 0 1rem;
 	overflow: auto;
-	background-color: blue;
 	color: #333;
 }
 
@@ -76,7 +75,6 @@ h1 a {
 
 .content {
 	width:100%;
-	background-color: black;
 }
 .candidates {
 	display:table;
